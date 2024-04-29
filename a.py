@@ -9,7 +9,7 @@ def extract_domain(url):
     return domain
 
 # 读取CSV文件
-df = pd.read_csv('BrowserHistory_2024_4_28.csv', delimiter=',',names=['DateTime', 'NavigatedToUrl', 'PageTitle'])
+df = pd.read_csv('yourcsv', delimiter=',',names=['DateTime', 'NavigatedToUrl', 'PageTitle'])
 
 
 # 将URL列中的每个URL提取为主域名
